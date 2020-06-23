@@ -1,0 +1,42 @@
+header, footer {
+    background-color: rgb(230, 111, 15);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    color: blue;
+}
+
+.title {
+    color: rgb(0, 4, 255);
+}
+
+#unorderedlist {
+    color: rgb(0, 0, 0);
+}
+
+#contact {
+    font-weight: lighter;
+    text-align: center;
+}
+
+nav{
+    background-color: #222;
+}
+
+section,article {
+    padding: 10px;
+    background-color: #eee;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
