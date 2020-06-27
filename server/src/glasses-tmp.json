@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "name": "Ochelari TX",
+        "brand": "Gucci",
+        "color": "rosu",
+        "rama": "metal",
+        "tip_fata": "ovala",
+        "protectieUV": "DA",
+        "descriere": "Pentru vara",
+        "an_aparitie": 2020,
+        "price": "1000 de lei"
+    },
+
+    {
+        "id": 2,
+        "name": "Ochelari RTX",
+        "brand": "Nvidia",
+        "color": "verde",
+        "rama": "metal",
+        "tip_fata": "dreptunghiulara",
+        "protectieUV": "NU",
+        "descriere": "Pentru vedere",
+        "an_aparitie": 2020,
+        "price": "500 de lei"
+    },
+
+    {
+        "id": 3,
+        "name": "Ochelari RBW",
+        "brand": "Ray Ban",
+        "color": "negru",
+        "rama": "plastic",
+        "tip_fata": "patratica",
+        "protectieUV": "DA",
+        "descriere": "Pentru vara",
+        "an_aparitie": 2020,
+        "price": "800 de lei"
+    },
+
+    {
+        "id": 4,
+        "name": "Ochelari JDB",
+        "brand": "Sportisimo",
+        "color": "maro",
+        "rama": "metal",
+        "tip_fata": "ovala",
+        "protectieUV": "NU",
+        "descriere": "Pentru vedere",
+        "an_aparitie": 2020,
+        "price": "300 de lei"
+    },
+
+    {
+        "id": 5,
+        "name": "Ochelari QLR",
+        "brand": "Lacoste",
+        "color": "albastru",
+        "rama": "plastic",
+        "tip_fata": "patratica",
+        "protectieUV": "DA",
+        "descriere": "Pentru vara si vedere",
+        "an_aparitie": 2020,
+        "price": "1300 de lei"
+    },
+    {
+        "id": 6,
+        "name": "Ochelari ZTE",
+        "brand": "Gucci",
+        "color": "violet",
+        "rama": "metal",
+        "tip_fata": "ovala",
+        "protectieUV": "NU",
+        "descriere": "Pentru vedere",
+        "an_aparitie": 2020,
+        "price": "800 de lei"
+    },
+
+    {
+        "id": 7,
+        "name": "Ochelari OTK",
+        "brand": "Zucci",
+        "color": "gri",
+        "rama": "metal",
+        "tip_fata": "ovala",
+        "protectieUV": "DA",
+        "descriere": "Pentru sport",
+        "an_aparitie": 2020,
+        "price": "1000 de lei"
+    },
+
+    {
+        "id": 8,
+        "name": "Ochelari BBB",
+        "brand": "Gucci",
+        "color": "gold",
+        "rama": "plastic",
+        "tip_fata": "dreptunghiulara",
+        "protectieUV": "NU",
+        "descriere": "Pentru vedere",
+        "an_aparitie": 2020,
+        "price": "1600 de lei"
+    },
+
+    {
+        "id": 9,
+        "name": "Ochelari TDR",
+        "brand": "Zonneti",
+        "color": "red",
+        "rama": "metal",
+        "tip_fata": "ovala",
+        "protectieUV": "DA",
+        "descriere": "Pentru vara",
+        "an_aparitie": 2020,
+        "price": "1000 de lei"
+    },
+
+    {
+        "id": 10,
+        "name": "Ochelari LLL",
+        "brand": "Lore",
+        "color": "portocaliu",
+        "rama": "plastic",
+        "tip_fata": "ovala",
+        "protectieUV": "DA",
+        "descriere": "Pentru sport",
+        "an_aparitie": 2020,
+        "price": "600 de lei"
+    }
+    
+]

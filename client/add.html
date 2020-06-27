@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+</head>
+
+<body>
+    <a href="index.html">Home</a>
+    <div id="add">
+        <h1>Adaugare pereche ochelari noi</h1>
+        <label>Glasses name</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label>Glasses brand</label>
+        <input type="text" id="brand" name="brand"><br><br>
+        <label>Glasses color</label>
+        <input type="text" id="color" name="color"><br><br>
+        <label>Rama</label>
+        <input type="text" id="rama" name="rama"><br><br>
+        <label>Tip fata pt ochelari</label>
+        <input type="text" id="tip_fata" name="tip_fata"><br><br>
+        <label>Glasses protectie UV(Da/Nu)</label>
+        <input type="text" id="protectieUV" name="protectieUV"><br><br>
+        <label>Glasses descriere</label>
+        <input type="text" id="descriere" name="descriere"><br><br>
+        <label>Glasses release</label>
+        <input type="text" id="an_aparitie" name="an_aparitie"><br><br>
+        <label>Glasses price</label>
+        <input type="text" id="price" name="price"><br><br>
+        <button v-on:click="addGlass()">Add</button>
+
+    </div>
+    <script src="src/add.js"></script>
+</body>
+
+</html>

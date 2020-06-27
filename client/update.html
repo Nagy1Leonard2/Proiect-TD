@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/update.css" />
+        <script type="text/javascript" src="libs/vue.js"></script>
+        <script type="text/javascript" src="libs/axios.js"></script>
+    </head>
+    <body>
+        <a href="index.html">Home</a>
+        <div id="update">
+            <h1>Actualizare ochelari cu id-ul: {{ id }}</h1> <br>
+            <div class="label">Name:</div>
+            <input type="text" v-model="glass.name"><br></br>
+            <div class="label">Brand:</div>
+            <input type="text" v-model="glass.brand"><br></br>
+            <div class="label">Color:</div>
+            <input type="text" v-model="glass.color"><br></br>
+            <div class="label">Rama:</div>
+            <input type="text" v-model="glass.rama"><br></br>
+            <div class="label">Tip fata:</div>
+            <input type="text" v-model="glass.tip_fata"><br></br>
+            <div class="label">Protectie UV:</div>
+            <input type="text" v-model="glass.protectieUV"><br></br>
+            <div class="label">Descriere:</div>
+            <input type="text" v-model="glass.descriere"><br></br>
+            <div class="label">Release:</div>
+            <input type="text" v-model="glass.an_aparitie"><br></br>
+            <div class="label">Price:</div>
+            <input type="text" v-model="glass.price"><br></br>
+            <button  v-on:click="update(glass.id)">Save</button>
+
+            <p>{{message}}</p>
+
+        </div>
+
+        <script  src="src/update.js"></script>
+    </body>
+</html>

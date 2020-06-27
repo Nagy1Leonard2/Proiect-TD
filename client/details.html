@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/details.css" />
+    <script type="text/javascript" src="libs/vue.js"></script>
+    <script type="text/javascript" src="libs/axios.js"></script>
+    <title>Details Product</title>
+</head>
+
+<body>
+    <a href="index.html">Home</a>
+    <div id="details">
+        <h1>Detalii pentru produsul cu id-ul: {{ id }}</h1>
+        
+            <div class="custom"></div>
+
+        <table>
+            <tr>
+                <th><div class="label">Name:</div></th>
+                <th><div class="label">Price:</div></th>
+                <th><div class="label">Brand:</div></th>
+                <th><div class="label">Color:</div></th>
+                <th><div class="label">Rama:</div></th>
+                <th><div class="label">Tip fata:</div></th>
+                <th><div class="label">Protectie UV:</div></th>
+                <th><div class="label">Descriere:</div></th>
+                <th><div class="label">Release:</div></th>
+            </tr>
+        
+            <tr>
+                <td><div class="value">{{glass.name}}</div></td>
+                <td><div class="value">{{glass.price}}</div></td>
+                <td><div class="value">{{glass.brand}}</div></td>
+                <td><div class="value">{{glass.color}}</div></td>
+                <td><div class="value">{{glass.rama}}</div></td>
+                <td><div class="value">{{glass.tip_fata}}</div></td>
+                <td><div class="value">{{glass.protectieUV}}</div></td>
+                <td><div class="value">{{glass.descriere}}</div></td>
+                <td><div class="value">{{glass.an_aparitie}}</div></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <script src="src/details.js"></script>
+</body>
+
+</html>

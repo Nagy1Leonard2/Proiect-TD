@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+.table , th , td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.col{
+    display: table-column;
+}
+
+.label {
+    padding:20px;
+    flex:1;
+    background-color:#f18912;
+}
+
+.value {
+    padding: 20px;
+    background-color: rgb(233, 230, 50);
+    flex:1;
+}
